@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftSide1 {
+    flex: 6;
+}
+
+.img {
+    width: 50vw;
+}
+
+@media (max-width: 767px) {
+    .leftSide1 {
+        height: 100vh;
+    }
+
+    .img {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .leftSide1 {
+        height: 90vh;
+        background-size: cover;
+    }
+
+    .img {
+        width: 100vw;
+    }
+
+    .innernew {
+        padding: 30px;
+    }
+
+    .inner3right {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .img {
+        width: 100vw;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .img {
+        width: 50vw;
+        height: 100vh;
+    }
+
+    .rightSide1 {
+        padding: 1%;
+    }
+
+    .inner1 {
+        margin-top: 1vh;
+        font-size: medium;
+    }
+
+    .inner3right p {
+        width: 10%;
+        height: 5vh;
+        padding: 0px;
+    }
+}
+
+.rightSide1 {
+    flex: 6;
+}
+
+.innernew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.inner1 {
+    margin-top: 3vh;
+    flex: 4;
+    margin-bottom: 5vh;
+}
+
+.inner2 {
+    flex: 4;
+    background-color: blanchedalmond;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1em;
+}
+
+.inner3 {
+    margin-top: 2vh;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner3right p {
+    width: 15vw;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner3left {
+    flex: 6;
+    padding: 1em;
+}
+
+.inner3left .butt {
+    animation: glow 1s infinite;
+}
+
+.inner3right {
+    flex: 6;
+    text-align: center;
+    background-color: white;
+    /* border: 3px gray solid; */
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 1px 5px 20px rgb(151, 150, 150)
+    }
+
+    50% {
+        box-shadow: 2px 5px 20px rgb(63, 63, 63)
+    }
+
+    100% {
+        box-shadow: -1px 5px 20px rgb(234, 231, 231)
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainn {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .inner2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .inner3right p {
+        width: 100%;
+        height: 20vh;
+    }
+}
