@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# CXR-reactJS
+CXR-reactJS is a web application designed to provide information about COVID-19 in India, including vaccination centers, statistics, and chest X-ray image detection. The application is built using ReactJS, a popular JavaScript library for building user interfaces. It uses various APIs, including Bing API for map visualization of COVID-19 vaccination centers, to retrieve data and provide real-time updates.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+Provides information about COVID-19 in India, including vaccination centers, statistics, and chest X-ray image detection.
+Uses ReactJS for building user interfaces.
+Retrieves data from various APIs, including Bing API for map visualization of COVID-19 vaccination centers.
+Hosts chest X-ray images on CloudFront through S3.
+Shows real-time graph of indian nearby countries stats by using chart.js 
+Includes an online Telegram chatbot for support (@CovidXray19_bot).
+Hosted on covidxaid.site.
 
-## Available Scripts
+# Getting Started
+To use CXR-reactJS, you can visit the application at [covidxaid.site](https://covidxaid.site/). 
+You can also clone the repository to your local machine and run the application locally using the following steps:
 
-In the project directory, you can run:
+Clone the CXR-reactJS repository to your local machine.
+Install the required dependencies using npm install.
+Run the application using npm start.
+Once the application is running, you can navigate to http://localhost:3000 in your web browser to view it.
 
-### `npm start`
+# Usage
+## CXR-reactJS provides a variety of features and tools for tracking COVID-19 in India. These include:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Vaccination Center Tracker: Use the vaccination center tracker to find COVID-19 vaccination centers near you by entering your pincode.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+COVID-19 Statistics: The application provides real-time updates on COVID-19 statistics in India, including the number of confirmed cases, deaths, recoveries, and tests.
 
-### `npm test`
+Chest X-ray Image Detection: The application can detect COVID-19 from chest X-ray images. To use this feature, you can upload an X-ray image and receive a prediction indicating whether the image shows signs of COVID-19 or not.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Online Telegram Chatbot Support: The application includes an online Telegram chatbot for support [@CovidXray19_bot](http://t.me/CovidXray19_bot). You can use this chatbot to receive real-time updates on COVID-19 in India and get answers to your questions.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+CXR-reactJS is released under the MIT License. See the LICENSE file for more information.
